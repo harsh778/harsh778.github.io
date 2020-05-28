@@ -415,7 +415,10 @@ input:checked+.slider:before {
  padding-bottom: 10;
  display: inline;
 }
-
+#skills img:hover {
+ transform: scale(1.45);
+ transition: transform .2s;
+}
 #skills img.img-top {
  display: none;
  filter: invert(0);
