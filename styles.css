@@ -419,6 +419,10 @@ input:checked+.slider:before {
  transform: scale(1.45);
  transition: transform .2s;
 }
+#skills img:active {
+ transform: scale(1.45);
+ transition: transform .2s;
+}
 #skills img.img-top {
  display: none;
  filter: invert(0);
