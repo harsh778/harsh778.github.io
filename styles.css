@@ -210,7 +210,7 @@ input:checked+.slider:before {
 
 
 #home .heading {
- font-family: 'Permanent Marker', cursive;
+ font-family: 'Roboto Slab', serif; 
  padding-top: 38vh;
  visibility: visible;
  z-index: 1;
@@ -223,7 +223,7 @@ input:checked+.slider:before {
 }
 
 #home .heading h1 {
- font-family: 'Permanent Marker', cursive;
+ font-family: 'Roboto Slab', serif; 
  -webkit-animation-duration: 2s;
  animation-duration: 2s;
  -webkit-animation-fill-mode: both;
@@ -244,7 +244,7 @@ input:checked+.slider:before {
 #home .heading h1, h3 {
  color: var(--home-color);
  font-size: 37.0224;
- font-family: 'Permanent Marker', cursive;
+ font-family: 'Kaushan Script', cursive;
  font-weight: 300;
  margin-top: 10px;
  margin-bottom: 10px;
@@ -252,7 +252,7 @@ input:checked+.slider:before {
 
 #home h3 {
  font-size: 28.8;
- font-family: 'Permanent Marker', cursive;
+ font-family: 'Kaushan Script', cursive;
 }
 
 .scroll-down a i {
