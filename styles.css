@@ -124,7 +124,7 @@ hr {
  display: inline-block;
  height: 24px;
  position: relative;
- width: 34px;
+ width: 44px;
 }
 
 .theme-switch input {
@@ -160,7 +160,7 @@ input:checked+.slider {
 }
 
 input:checked+.slider:before {
- transform: translateX(10px);
+ transform: translateX(20px);
 }
 
 .slider.round {
