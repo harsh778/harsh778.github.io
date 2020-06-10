@@ -737,7 +737,7 @@ div {
 
 @media screen and (min-width: 800px) {
   .cursor {
-    visibility: none;
+    visibility: hidden;
   }
 }
 .cursor {
