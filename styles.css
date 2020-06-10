@@ -735,6 +735,11 @@ div {
   user-select: none;
 }
 
+@media screen and (max-width: 600px) {
+  .cursor {
+    visibility: none;
+  }
+
 .cursor {
   display: block;
   width: 20px;
