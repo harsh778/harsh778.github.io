@@ -735,7 +735,7 @@ div {
   user-select: none;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 250px) {
   .cursor {
     visibility: hidden;
   }
