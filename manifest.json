@@ -7,8 +7,7 @@
 	"background_color" : "#00aae7",
 	"theme_color" : "#00aae7",
 	"dir" : "ltr",
-	"display" : "standalone",
-	"orientation" : "portrait-primary",
+	"display" : "standalone", =>
 	"prefer_related_applications" : true,
 	"url" : "https://harshsinghal.me",
 	"icons" : [
@@ -38,6 +37,7 @@
 			"src": "android-chrome-512x512.png",
 			"sizes": "512x512"
 		}],
-	"screenshots" : [],
+	
+	"screenshots" : [ ],
 	"generated" : ""
 }
