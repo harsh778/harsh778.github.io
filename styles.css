@@ -81,6 +81,7 @@ hr {
   top: 0;
   transition: all 0.5s;
   color: var(--primary-color);
+  height: 70px;
 }
 
 .navbar a {
