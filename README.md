@@ -1,3 +1,3 @@
 # harshsinghal.me 🌐 
-V2.0 of my Portfolio Website
+V2.0 of my Portfolio Website built using popular libraries like JQuery, Bootstrap and many more... 
 Check it out @ https://harshsinghal.me
