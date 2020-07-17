@@ -789,17 +789,17 @@ div {
   }
 }
 .f-link:link {
-	color: black;
+	color: var(--font-color);
 	text-decoration: none;
 	transition: all 0.5s ease-in;
 }
 
 .f-link:visited {
-	color: black;
+	color: var(--font-color);
 	text-decoration: none;
 }
 
 .f-link:hover {
-	color: #86c232
+	color: #5CF78A
 	text-decoration: none;
 }
