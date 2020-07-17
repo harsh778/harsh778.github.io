@@ -788,17 +788,18 @@ div {
     opacity: 0;
   }
 }
-.copy-link:link {
+.f-link:link {
 	color: white;
 	text-decoration: none;
 	transition: all 0.5s ease-in;
 }
 
-.copy-link:visited {
+.f-link:visited {
 	color: white;
 	text-decoration: none;
 }
 
 .f-link:hover {
+	color: 
 	text-decoration: none;
 }
