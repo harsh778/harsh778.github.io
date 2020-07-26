@@ -1,6 +1,5 @@
 const staticCacheName = 'site-static-v1';
-const assets = [
-  
+const assets = [  
   '/',
   '/index.html',
   '/assets/js/ui.js',
