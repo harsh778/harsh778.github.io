@@ -805,7 +805,7 @@ div {
 	text-decoration: none;
 }
 .footer-made {
-	color: #0000008a;
+	color: color: var(--font-color);
 }
 .harsh-f {
 	text-decoration: none;
