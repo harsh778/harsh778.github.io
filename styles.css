@@ -801,7 +801,7 @@ div {
 }
 
 .f-link:hover {
-	color: var(--home-color)
+	color: var(--home-color);
 	text-decoration: none;
 }
 .footer-made {
