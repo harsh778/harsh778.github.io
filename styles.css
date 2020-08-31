@@ -787,25 +787,53 @@ div {
     opacity: 0;
   }
 }
-.f-link:link {
+.harsh-f:link {
 	color: var(--font-color);
 	text-decoration: none;
         transition: all 0.5s ease-in;
 
 }
 
-.f-link:visited {
+.harsh-f:visited {
 	color: var(--font-color);
 	text-decoration: none;
 }
 
-.f-link:hover {
+.harsh-f:hover {
 	color: #054db9;
 	text-decoration: none;
 }
 .footer-made {
 	color: var(--font-color);
 }
-.harsh-f {
-	text-decoration: none;
+.f-link:link {
+    color: var(--font-color);
+    text-decoration: none;
+    padding-bottom: 2.5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 3.1px; 
+    width: fit-content; 
+    transition: all 0.5s ease-in;
+
+}
+
+.f-link:visited {
+    color: var(--font-color);
+    text-decoration: none;
+    padding-bottom: 2.5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 3.1px;
+    width: fit-content; 
+
+}
+
+.f-link:hover {
+    color: #054db9;
+    text-decoration: none;
+    padding-bottom: 2.5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 3.1px; 
+    width: fit-content; 
+
+	
 }
