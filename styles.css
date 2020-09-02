@@ -760,7 +760,7 @@ div {
 .expand {
   background: transparent;
   animation: moveCursor2 .5s forwards;
-  border: 2.5px solid var(--font-color;
+  border: 2.5px solid var(--font-color);
 }
 
 @keyframes moveCursor1 {
