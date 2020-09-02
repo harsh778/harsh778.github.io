@@ -752,7 +752,7 @@ div {
   background: transparent;
   pointer-events: none;
   z-index: 111;
-  border: 2.5px solid #FFFFFF;
+  border: 2.5px solid var(--font-color);
   transition: all 0.2s ease-out;
   animation: moveCursor1 .5s infinite alternate;
 }
@@ -760,7 +760,7 @@ div {
 .expand {
   background: transparent;
   animation: moveCursor2 .5s forwards;
-  border: 2.5px solid #FFFFFF;
+  border: 2.5px solid var(--font-color;
 }
 
 @keyframes moveCursor1 {
