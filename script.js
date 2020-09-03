@@ -108,4 +108,5 @@ document.addEventListener('click', e => {
         cursor.classList.remove("expand");
     }, 500);
 });
+document.getElementById("lastupdate").innerHTML = document.lastModified;
 console.log("Lol, what are you doing 'inspecting the element'? Now that you are here suggest me some changes in the UI...GG have fun.")
