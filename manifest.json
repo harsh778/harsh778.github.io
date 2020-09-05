@@ -13,29 +13,29 @@
 	"url" : "https://harshsinghal.me",
 	"icons" : [
 		{
-			"src": "48x48.png",
+			"src": "Images/48x48.png",
 			"sizes": "48x48"
 		},
 		{
-			"src": "72x72.png",
+			"src": "Images/72x72.png",
 			"sizes": "72x72"
 		},
 		{
-			"src": "96x96.png",
+			"src": "Images/96x96.png",
 			"sizes": "96x96"
 		},
 
 		{
-			"src": "144x144.png",
+			"src": "Images/144x144.png",
 			"sizes": "144x144"
 		},
 		{
-			"src": "android-chrome-192x192.png",
+			"src": "Images/android-chrome-192x192.png",
 			"sizes": "192x192"
 		},
 
 		{
-			"src": "android-chrome-512x512.png",
+			"src": "Images/android-chrome-512x512.png",
 			"sizes": "512x512"
 		}],
 	
