@@ -811,7 +811,7 @@ div {
     text-decoration: none;
     width: fit-content; 
     transition: all 0.5s ease-in;
-
+    font-weight: bold;
 }
 
 .f-link:visited {
@@ -820,8 +820,8 @@ div {
     padding-bottom: 2.5px; 
     border-bottom-style: solid; 
     border-bottom-width: 3.1px;
-    width: fit-content; 
-
+    width: fit-content;
+    font-weight: bold;
 }
 
 .f-link:hover {
@@ -830,7 +830,8 @@ div {
     padding-bottom: 2.5px; 
     border-bottom-style: solid; 
     border-bottom-width: 3.1px; 
-    width: fit-content; 
+    width: fit-content;
+    font-weight: bold;
 
 	
 }
