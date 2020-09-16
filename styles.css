@@ -837,3 +837,11 @@ div {
 }
 .footer-text {
     line-height: 0.6;
+
+.main-canvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
