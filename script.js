@@ -108,7 +108,8 @@ document.addEventListener('click', e => {
         cursor.classList.remove("expand");
     }, 500);
 });
-window.onload = function() {
+
+window.onload = particles-trigger() {
   Particles.init({
     selector: '.main-canvas'
   });
