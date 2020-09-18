@@ -217,3 +217,28 @@ span.green {
 	}
 
 }
+button {
+                    height: 40px;
+                    padding: 0 30px;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    box-shadow: 0px 15px 20px rgba($bg-02, 0.5);
+                    z-index: 3;
+                    color: $bg-01;
+                    background-color: white;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 12px;
+                    transition: all 0.3s ease;
+
+
+                    &:hover {
+                        box-shadow: 0px 10px 10px -10px rgba($bg-02, 0.5);
+                        transform: translateY(5px);
+                        background: $m-01;
+                        color: white;
+                    }
+                }
+            }
+        }
+
