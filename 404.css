@@ -217,7 +217,7 @@ span.green {
 	}
 
 }
-button {
+.button {
                     height: 40px;
                     padding: 0 30px;
                     border-radius: 50px;
