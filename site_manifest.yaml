@@ -1,0 +1,28 @@
+---
+short_name: Harsh Singhal
+name: Harsh Vardhan Singhal
+lang: en
+description: Portfolio Website
+start_url: https://harshsinghal.me/
+background_color: "#00aae7"
+theme_color: "#00aae7"
+dir: ltr
+display: standalone
+orientation: portrait-primary
+prefer_related_applications: true
+url: https://harshsinghal.me
+icons:
+- src: Images/Favicons/48x48.png
+  sizes: 48x48
+- src: Images/Favicons/72x72.png
+  sizes: 72x72
+- src: Images/Favicons/96x96.png
+  sizes: 96x96
+- src: Images/Favicons/144x144.png
+  sizes: 144x144
+- src: Images/Favicons/android-chrome-192x192.png
+  sizes: 192x192
+- src: Images/Favicons/android-chrome-512x512.png
+  sizes: 512x512
+screenshots: []
+generated: ''
