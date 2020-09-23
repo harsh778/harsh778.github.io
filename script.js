@@ -1,3 +1,8 @@
+/*
+This file contains all the scripts and JS required for harshsinghal.me to work independently. Service-Worker client and backend scripts can be found in sw.js and app.js
+*/
+
+
 var myVar;
 
 function myFunction() {
