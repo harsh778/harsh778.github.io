@@ -207,19 +207,18 @@ input:checked+.slider:before {
   z-index: -1;
 }
 
-
-
 .home .heading {
   font-family: 'Roboto Slab', serif;
   padding-top: 38vh;
   visibility: visible;
   z-index: 1;
   padding-bottom: 160px;
+  position: absolute;
+  width: 100%;
 }
 
 #harsh {
   font-family: 'Permanent Marker', cursive;
-
 }
 
 .home .heading h1 {
@@ -232,6 +231,8 @@ input:checked+.slider:before {
   animation-name: fadeInDown;
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
+   position: absolute;
+   width: 100%;
 }
 
 .home .heading h3 {
@@ -239,6 +240,8 @@ input:checked+.slider:before {
   animation-fill-mode: both;
   animation-name: aa;
   animation-delay: 3.25s;
+  position: absolute;
+  width: 100%;
 }
 
 .home .heading h1,
@@ -249,6 +252,8 @@ h3 {
   font-weight: 300;
   margin-top: 10px;
   margin-bottom: 10px;
+  position: absolute;
+  width: 100%;
 }
 
 .home h3 {
