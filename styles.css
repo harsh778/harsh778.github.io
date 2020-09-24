@@ -198,7 +198,7 @@ input:checked+.slider:before {
 }
 
 .home::before {
-  background-image: /url(Images/bg.jpg);
+  background-image: /url(/bg.jpg);
   position: absolute;
   background-attachment: fixed;
   background-repeat: no-repeat;
