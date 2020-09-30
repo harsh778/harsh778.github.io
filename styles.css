@@ -848,7 +848,7 @@ div {
   z-index: 0;
 }
 	
-#particles-js {
+.particles-js-canvas-el {
   position: fixed;
   top: 0;
   left: 0;
