@@ -287,6 +287,10 @@ h3 {
 }
 
 /*ABOUT*/
+.about-head {
+  z-index: -1
+}
+
 #about .about-head h2 {
   font-family: 'Lobster', cursive;
   font-weight: 300;
