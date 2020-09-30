@@ -22,6 +22,14 @@
   --scroll-fg-color: #272727;
 }
 
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
 
 * {
   margin: 0;
@@ -848,13 +856,6 @@ div {
   z-index: 0;
 }
 	
-#particles-js {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -2;
-}
+
 
 
