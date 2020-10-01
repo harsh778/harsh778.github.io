@@ -5,4 +5,8 @@ visit my Portfolio here [HarshSinghal](https://harshsinghal.me)
 
 Amazing UI/UX with both Dark and Light Mode
 
-![Portfolio](/Images/portfolio.png)
+![Portfolio](/Images/screen1.png)
+![Portfolio](/Images/screen2.png)
+![Portfolio](/Images/screen3.png)
+![Portfolio](/Images/screen4.png)
+
