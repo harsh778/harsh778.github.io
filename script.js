@@ -48,34 +48,26 @@ const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"
 
 function switchTheme(e) {
   if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("Cursor").style.filter = "invert(0)";
+    document.getElementById("skill-img").style.filter = "invert(0)";
+    document.getElementById("skill-img-1").style.filter = "invert(0)";
+    document.getElementById("skill-img-2").style.filter = "invert(0)";
+    document.getElementById("skill-img-3").style.filter = "invert(0)";
+
+  } else {
     document.documentElement.setAttribute('data-theme', 'dark');
     document.getElementById("Cursor").style.filter = "invert(100)";
     document.getElementById("skill-img").style.filter = "invert(100)";
     document.getElementById("skill-img-1").style.filter = "invert(100)";
     document.getElementById("skill-img-2").style.filter = "invert(100)";
     document.getElementById("skill-img-3").style.filter = "invert(100)";
-
-  } else {
-    document.documentElement.setAttribute('data-theme', 'light');
-    document.getElementById("Cursor").style.filter = "invert(0)";
-    document.getElementById("skill-img").style.filter = "invert(0)";
-    document.getElementById("skill-img-1").style.filter = "invert(0)";
-    document.getElementById("skill-img-2").style.filter = "invert(0)";
-    document.getElementById("skill-img-3").style.filter = "invert(0)";
   }
 }
 toggleSwitch.addEventListener('change', switchTheme, false);
 
 function switchTheme(e) {
   if (e.target.checked) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    document.getElementById("Cursor").style.filter = "invert(100)";
-    document.getElementById("skill-img").style.filter = "invert(100)";
-    document.getElementById("skill-img-1").style.filter = "invert(100)";
-    document.getElementById("skill-img-2").style.filter = "invert(100)";
-    document.getElementById("skill-img-3").style.filter = "invert(100)";
-    localStorage.setItem('theme', 'dark');
-  } else {
     document.documentElement.setAttribute('data-theme', 'light');
     document.getElementById("Cursor").style.filter = "invert(0)";
     document.getElementById("skill-img").style.filter = "invert(0)";
@@ -83,6 +75,16 @@ function switchTheme(e) {
     document.getElementById("skill-img-2").style.filter = "invert(0)";
     document.getElementById("skill-img-3").style.filter = "invert(0)";
     localStorage.setItem('theme', 'light');
+
+  } else {
+
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.getElementById("Cursor").style.filter = "invert(100)";
+    document.getElementById("skill-img").style.filter = "invert(100)";
+    document.getElementById("skill-img-1").style.filter = "invert(100)";
+    document.getElementById("skill-img-2").style.filter = "invert(100)";
+    document.getElementById("skill-img-3").style.filter = "invert(100)";
+    localStorage.setItem('theme', 'dark');
   }
 }
 
