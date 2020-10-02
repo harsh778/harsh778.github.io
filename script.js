@@ -93,14 +93,14 @@ const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme
 if (currentTheme) {
   document.documentElement.setAttribute('data-theme', currentTheme);
 
-  if (currentTheme === 'dark') {
+  if (currentTheme === 'light') {
     toggleSwitch.checked = true;
 
-    document.getElementById("skill-img").style.filter = "invert(100)";
-    document.getElementById("Cursor").style.filter = "invert(100)";
-    document.getElementById("skill-img-1").style.filter = "invert(100)";
-    document.getElementById("skill-img-2").style.filter = "invert(100)";
-    document.getElementById("skill-img-3").style.filter = "invert(100)";
+    document.getElementById("Cursor").style.filter = "invert(0)";
+    document.getElementById("skill-img").style.filter = "invert(0)";
+    document.getElementById("skill-img-1").style.filter = "invert(0)";
+    document.getElementById("skill-img-2").style.filter = "invert(0)";
+    document.getElementById("skill-img-3").style.filter = "invert(0)";
   }
 }
 const cursor = document.querySelector('.cursor');
