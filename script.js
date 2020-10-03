@@ -14,6 +14,50 @@ function showPage() {
   document.getElementById("mainBod").style.display = "block";
 }
 
+document.addEventListener('DOMContentLoaded', function(event) {
+  var dataText = ["Student.", "Gamer.", "Web-developer.", "Programmer.", "Learner.", "Innovator." ];
+
+  function typeWriter(text, i, fnCallback) {
+    if (i < (text.length)) {
+      document.querySelector(".desc").innerHTML = text.substring(0, i + 1) + '<span></span>';
+
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback);
+      }, 50);
+    } else if (typeof fnCallback == 'function') {
+      setTimeout(fnCallback, 300);
+    }
+  }
+
+  function typeWriterDel(text, i, fnCallback) {
+    if (i > 0) {
+      document.querySelector(".desc").innerHTML = text.substring(0, i - 1) + '<span></span>';
+
+      setTimeout(function() {
+        typeWriterDel(text, i - 1, fnCallback);
+      }, 50);
+    } else if (typeof fnCallback == 'function') {
+      setTimeout(fnCallback, 300);
+    }
+  }
+
+  function StartTextAnimation(i) {
+    if (typeof dataText[i] == 'undefined') {
+      setTimeout(function() {
+        StartTextAnimation(0);
+      }, 0);
+    }
+    if (i < dataText[i].length) {
+      typeWriter(dataText[i], 0, function() {
+        typeWriterDel(dataText[i], dataText[i].length, function() {
+          StartTextAnimation(i + 1);
+        });
+      });
+    }
+  }
+  
+  StartTextAnimation(0);
+});
 
 const scrollIndicatorElt = document.getElementById('scrollIndicator');
 const maxScrollableHeight = document.body.scrollHeight - window.innerHeight;
