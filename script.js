@@ -14,7 +14,7 @@ function showPage() {
   document.getElementById("mainBod").style.display = "block";
 }
 document.addEventListener('DOMContentLoaded', function(event) {
-  var dataText = ["Student.", "Gamer.", "Web-developer.", "Programmer.", "Learner.", "Innovator." ];
+  var dataText = ["A Student.", "A Gamer.", "A Web-Developer.", "A Programmer.", "A Footballer.", "A Learner.", "An Innovator." ];
 
   function typeWriter(text, i, fnCallback) {
     if (i < (text.length)) {
