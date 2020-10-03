@@ -13,7 +13,6 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("mainBod").style.display = "block";
 }
-
 document.addEventListener('DOMContentLoaded', function(event) {
   var dataText = ["Student.", "Gamer.", "Web-developer.", "Programmer.", "Learner.", "Innovator." ];
 
