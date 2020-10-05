@@ -91,7 +91,7 @@ $(document).ready(function() {
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
 function switchTheme(e) {
-  if (e.target.unchecked) {
+  if (e.target.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     document.getElementById("Cursor").style.filter = "invert(100)";
     document.getElementById("skill-img").style.filter = "invert(100)";
@@ -111,7 +111,7 @@ function switchTheme(e) {
 toggleSwitch.addEventListener('change', switchTheme, false);
 
 function switchTheme(e) {
-  if (e.target.unchecked) {
+  if (e.target.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     document.getElementById("Cursor").style.filter = "invert(100)";
     document.getElementById("skill-img").style.filter = "invert(100)";
