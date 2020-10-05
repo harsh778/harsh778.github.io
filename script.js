@@ -135,7 +135,7 @@ const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme
 if (currentTheme) {
   document.documentElement.setAttribute('data-theme', currentTheme);
 
-  if (currentTheme === 'light') {
+  if (currentTheme === 'dark') {
     toggleSwitch.checked = true;
 
     document.getElementById("skill-img").style.filter = "invert(100)";
