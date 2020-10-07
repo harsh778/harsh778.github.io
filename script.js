@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
         typeWriter(text, i + 1, fnCallback);
       }, 50);
     } else if (typeof fnCallback == 'function') {
-      setTimeout(fnCallback, 300);
+      setTimeout(fnCallback, 900);
     }
   }
 
