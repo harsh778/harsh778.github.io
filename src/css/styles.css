@@ -38,6 +38,10 @@
   /*cursor: none;*/
 }
 
+::selection {
+  background: #bff5db;
+}
+
 html {
   margin: 0;
 }
