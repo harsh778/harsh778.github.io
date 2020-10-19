@@ -1,12 +1,8 @@
 /*!
  * fullPage 3.0.9
- * https://github.com/alvarotrigo/fullPage.js
- *
  * @license GPLv3 for open source use only
  * or Fullpage Commercial License for commercial use
  * http://alvarotrigo.com/fullPage/pricing/
- *
- * Copyright (C) 2018 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
  */
 (function( root, window, document, factory, undefined) {
     if( typeof define === 'function' && define.amd ) {
