@@ -1,12 +1,11 @@
-[![Forks][forks-shield]][forks-url]
-[![Netlify][netlify-shield]][netlify-url]
+
 
 
 # harshsinghal.me 🌐 
 <p align="center">
     <img src="Images/Favicons/144x144.png" alt="Logo" width="120" height="120">
   </p>
-<center>Source code of my Portfolio Website.</center><br>
+<h3 align="center">Source code of my Personal Portfolio Website</h3>
 Check it out @ https://harshsinghal.me
 
 ### Built With
