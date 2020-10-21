@@ -4,10 +4,9 @@
 
 # harshsinghal.me 🌐 
 <p align="center">
-    <img src="Images/Favicons/144x144.png" alt="Logo" width="100" height="100">
+    <img src="Images/Favicons/144x144.png" alt="Logo" width="120" height="120">
   </p>
-Source code of V2.0 of my Portfolio Website. <br>
-Licensed under the <a href="https://github.com/harsh778/harsh778.github.io/blob/master/LICENSE">MIT License</a> <br>
+<center>Source code of my Portfolio Website.</center><br>
 Check it out @ https://harshsinghal.me
 
 ### Built With
@@ -25,15 +24,15 @@ This project was built using the following languages and technologies.
 
 To have this app on your pc, you need to:
 * [download](https://github.com/harsh778/harsh778.github.io/archive/master.zip) or clone this repo:
-  - Clone with SSH:
+  - Clone using SSH:
   ```
    git@github.com:harsh778/harsh778.github.io.git
   ```
-  - Clone with HTTPS
+  - Clone using HTTPS
   ```
     https://github.com/harsh778/harsh778.github.io.git
   ```
-  - Clone with GitHub CLI
+  - Clone using GitHub CLI
   ```
     gh repo clone harsh778/harsh778.github.io
   ```
@@ -53,6 +52,6 @@ To have this app on your pc, you need to:
 ## :handshake: Contributing
 Contributions, issues and feature requests are welcome! Just fork this repo, make your changes and create a pull request. 
 
-## License
+## 📝 License
 
 This project is <a href="https://github.com/harsh778/harsh778.github.io/blob/master/LICENSE">MIT Licensed</a>
