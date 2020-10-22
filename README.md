@@ -1,6 +1,3 @@
-
-
-
 # harshsinghal.me 🌐 
 <p align="center">
     <img src="Images/Favicons/144x144.png" alt="Logo" width="120" height="120">
@@ -11,8 +8,7 @@ Check it out @ https://harshsinghal.me
 ### Built With
 This project was built using the following languages and technologies.
 
-* Javascript
-* EJS
+* JavaScript
 * JQuery
 * Bootstrap
 * HTML and Pug
@@ -49,8 +45,8 @@ To have this app on your pc, you need to:
     - Your app is ready to be deployed! Congrats 🎉
     
 ## :handshake: Contributing
-Contributions, issues and feature requests are welcome! Just fork this repo, make your changes and create a pull request. 
+Contributions, issues and feature requests are welcome! <br> Just fork this repo, make your changes and create a pull request. 
 
 ## 📝 License
 
-This project is <a href="https://github.com/harsh778/harsh778.github.io/blob/master/LICENSE">MIT Licensed</a>
+This project is <a href="https://github.com/harsh778/harsh778.github.io/blob/master/LICENSE">MIT Licensed</a>.
