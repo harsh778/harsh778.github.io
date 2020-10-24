@@ -1,3 +1,4 @@
+![DUB](https://img.shields.io/dub/l/vibe-d?label=License)
 # harshsinghal.me 🌐 
 <p align="center">
     <img src="Images/Favicons/144x144.png" alt="Logo" width="120" height="120">
