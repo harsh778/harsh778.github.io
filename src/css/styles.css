@@ -196,7 +196,7 @@ input:checked+.slider:before {
   font-size: 33px;
 }
 
-.home {
+#home {
   background: var(--overlay-color);
   height: 100%;
   width: 100%;
@@ -207,7 +207,7 @@ input:checked+.slider:before {
   justify-content: center;
 }
 
-.home::before {
+#home::before {
   background-image: /url(/bg.jpg);
   position: absolute;
   background-attachment: fixed;
@@ -219,7 +219,7 @@ input:checked+.slider:before {
   z-index: -1;
 }
 
-.home .heading {
+#home .heading {
   font-family: 'Roboto Slab', serif;
   padding-top: 38vh;
   visibility: visible;
@@ -232,7 +232,7 @@ input:checked+.slider:before {
   font-family: 'Permanent Marker', cursive;
 }
 
-.home .heading h1 {
+#home .heading h1 {
   font-family: 'Roboto Slab', serif;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -245,7 +245,7 @@ input:checked+.slider:before {
  
 }
 
-.home .heading h3 {
+#home .heading h3 {
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-name: aa;
@@ -253,7 +253,7 @@ input:checked+.slider:before {
  
 }
 
-.home .heading h1,
+#home .heading h1,
 h3 {
   color: var(--home-color);
   font-size: 37.0224;
@@ -264,7 +264,7 @@ h3 {
  
 }
 
-.home h3 {
+#home h3 {
   font-size: 22.8;
   font-family: 'Kaushan Script', cursive;
 }
