@@ -60,14 +60,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   StartTextAnimation(0);
 });
 
-//FULLPAGE
-var myFullpage = new fullpage('#fullpage', {
-    navigation: true,
-    scrollOverflow: true,
-    navigationPosition: 'right',
-    navigationTooltips: ['Home', 'About Me', 'Skills', 'Contact'],
-    css3: false
-});
+
 
 const scrollIndicatorElt = document.getElementById('scrollIndicator');
 const maxScrollableHeight = document.body.scrollHeight - window.innerHeight;
