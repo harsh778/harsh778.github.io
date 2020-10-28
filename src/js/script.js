@@ -14,14 +14,6 @@ function showPage() {
   document.getElementById("mainBod").style.display = "block";
 }
 
-//FULLPAGE
-        var myFullpage = new fullpage('#fullpage', {
-            navigation: true,
-            scrollOverflow: true,
-            navigationPosition: 'right',
-            navigationTooltips: ['Home', 'About Me', 'Skills', 'Contact'],
-            css3: false
-        });
 
 document.addEventListener('DOMContentLoaded', function(event) {
   var dataText = ["A Student", "A Gamer", "A Web-Developer", "A Programmer", "A Footballer", "A Learner", "An Innovator" ];
@@ -66,6 +58,15 @@ document.addEventListener('DOMContentLoaded', function(event) {
   }
   
   StartTextAnimation(0);
+});
+
+//FULLPAGE
+var myFullpage = new fullpage('#fullpage', {
+    navigation: true,
+    scrollOverflow: true,
+    navigationPosition: 'right',
+    navigationTooltips: ['Home', 'About Me', 'Skills', 'Contact'],
+    css3: false
 });
 
 const scrollIndicatorElt = document.getElementById('scrollIndicator');
