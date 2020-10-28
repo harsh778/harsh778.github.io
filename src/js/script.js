@@ -13,6 +13,16 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("mainBod").style.display = "block";
 }
+
+//FULLPAGE
+        var myFullpage = new fullpage('#fullpage', {
+            navigation: true,
+            scrollOverflow: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Home', 'About Me', 'Skills', 'Contact'],
+            css3: false
+        });
+
 document.addEventListener('DOMContentLoaded', function(event) {
   var dataText = ["A Student", "A Gamer", "A Web-Developer", "A Programmer", "A Footballer", "A Learner", "An Innovator" ];
 
