@@ -10,7 +10,7 @@ Check it out @ https://harshsinghal.me
 This project was built using the following languages and technologies.
 
 * JavaScript
-* JQuery
+* jQuery
 * Bootstrap
 * HTML and Pug
 * CSS and Stylus
