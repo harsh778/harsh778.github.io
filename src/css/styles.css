@@ -82,8 +82,8 @@ hr {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 1%;
-  -webkit-animation-duration: 4.5s;
-  animation-duration: 4.5s;
+  -webkit-animation-duration: 3.3s;
+  animation-duration: 3.3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: InDown;
@@ -234,14 +234,14 @@ input:checked+.slider:before {
 
 #home .heading h1 {
   font-family: 'Roboto Slab', serif;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 2.8s;
+  animation-duration: 2.8s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
+  animation-delay: 2.8s;
+  -webkit-animation-delay: 2.8s;
  
 }
 
