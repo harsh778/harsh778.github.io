@@ -82,14 +82,14 @@ hr {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 1%;
-  -webkit-animation-duration: 3.3s;
-  animation-duration: 3.3s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: InDown;
   animation-name: InDown;
   top: 0;
-  transition: all 2s;
+  transition: all 0.5s;
   color: var(--primary-color);
  
 }
@@ -102,7 +102,7 @@ hr {
   text-align: center;
   padding: 1px;
   text-decoration: none;
-  transition: all 2s;
+  transition: all 0.5s;
   margin: 10px 8px;
   position: relative;
 }
@@ -118,7 +118,7 @@ hr {
   color: transparent;
   background: var(--home-color);
   height: 2px;
-  transition: all 2s;
+  transition: all 0.5s;
 }
 
 .navbar a:hover::after {
@@ -234,14 +234,14 @@ input:checked+.slider:before {
 
 #home .heading h1 {
   font-family: 'Roboto Slab', serif;
-  -webkit-animation-duration: 2.8s;
-  animation-duration: 2.8s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  animation-delay: 2.8s;
-  -webkit-animation-delay: 2.8s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
  
 }
 
@@ -301,28 +301,24 @@ h3 {
 
 /*ABOUT*/
 .about-head {
-  z-index: -1;
-  transition: all 2s;	 
+  z-index: -1
 }
 
 #about .about-head h2 {
   font-family: 'Lobster', cursive;
   font-weight: 300;
   color: var(--font-color);
-  transition: all 2s;
 }
 
 .about-head h2 {
   font-family: 'Lobster', cursive;
   font-weight: 300;
   color: var(--font-color);
-  transition: all 2s;
 }
 
 .about-head hr {
   border-top: solid 2px var(--primary-color);
   width: 20%;
-  transition: all 2s;
 }
 
 #about h4,
@@ -332,7 +328,6 @@ h5 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--font-color);
-  transition: all 2s;
 }
 
 #about i {
@@ -340,19 +335,15 @@ h5 {
   color: #292929;
   margin: 10px;
   color: var(--font-color);
-  transition: all 2s;
 }
 
 #about .about-head hr {
   border-top: solid 2px var(--primary-color);
   width: 20%;
-  transition: all 2s;
 }
 
 #about p {
   font-family: 'Roboto Slab', serif;
-  transition: all 2s;
-  
 }
 
 .row {
@@ -365,14 +356,6 @@ h5 {
   z-index: 2;
   align-content: center;
   justify-content: center;
-  -webkit-animation-duration: 3.3s;
-  animation-duration: 3.3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: InDown;
-  animation-name: InDown;
-  top: 0;
-  transition: all 2s;
 }
 
 #about .writen {
@@ -382,8 +365,7 @@ h5 {
   padding-left: 10%;
   padding-right: 10%;
   color: var(--font-color);
-  font-size: 21;
-  transition: all 2s;
+  font-size: 21
 }
 
 #skills {
@@ -400,13 +382,11 @@ h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color: var(--font-color);
-  transition: all 2s;
 }
 
 .about-head hr {
   border-top: solid 2px var(--primary-color);
   width: 20%;
-  transition: all 2s;
 }
 
 #skills h4,
@@ -876,5 +856,4 @@ input[type="submit"]:hover {
 }
 
 	
-
 
