@@ -316,6 +316,14 @@ h3 {
   font-family: 'Lobster', cursive;
   font-weight: 300;
   color: var(--font-color);
+  -webkit-animation-duration: 3.3s;
+  animation-duration: 3.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: InDown;
+  animation-name: InDown;
+  top: 0;
+  transition: all 2s;
 }
 
 .about-head h2 {
@@ -352,6 +360,7 @@ h5 {
 
 #about p {
   font-family: 'Roboto Slab', serif;
+  
 }
 
 .row {
@@ -364,6 +373,14 @@ h5 {
   z-index: 2;
   align-content: center;
   justify-content: center;
+  -webkit-animation-duration: 3.3s;
+  animation-duration: 3.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: InDown;
+  animation-name: InDown;
+  top: 0;
+  transition: all 2s;
 }
 
 #about .writen {
