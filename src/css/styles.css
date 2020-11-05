@@ -118,7 +118,7 @@ hr {
   color: transparent;
   background: var(--home-color);
   height: 2px;
-  transition: all 1.75s;
+  transition: all 0.5s;
 }
 
 .navbar a:hover::after {
