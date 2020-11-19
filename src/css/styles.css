@@ -245,6 +245,9 @@ input:checked+.slider:before {
   text-decoration: none;
  
 }
+#home .heading a {
+  text-decoration: none;
+}
 
 #home .heading h3 {
   animation-duration: 1s;
