@@ -258,7 +258,7 @@ input:checked+.slider:before {
 }
 
 #home .heading h1,
-h3 {
+h3,a {
   color: var(--home-color);
   font-size: 37.0224;
   font-family: 'Kaushan Script', cursive;
