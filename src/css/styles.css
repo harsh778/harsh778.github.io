@@ -275,6 +275,19 @@ h3 {
   height: 22.8
 }
 
+/*For animations apart from the h tags*/
+p {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+
 .scroll-down a i {
   width: 35px;
   height: 35px;
