@@ -242,6 +242,7 @@ input:checked+.slider:before {
   animation-name: fadeInDown;
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
+  text-decoration: none;
  
 }
 
