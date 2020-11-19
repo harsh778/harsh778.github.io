@@ -232,7 +232,7 @@ input:checked+.slider:before {
   font-family: 'Permanent Marker', cursive;
 }
 
-#home .heading h1,a {
+#home .heading h1 {
   font-family: 'Roboto Slab', serif;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -247,6 +247,7 @@ input:checked+.slider:before {
 }
 #home .heading a {
   text-decoration: none;
+  color: var(--home-color);
 }
 
 #home .heading h3 {
