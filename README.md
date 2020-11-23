@@ -18,7 +18,7 @@ This project was built using the following languages and technologies.
 
 ## Usage and Development
 
-To have this app on your pc, you need to:
+To have this web application on your pc, you need to:
 * [download](https://github.com/harsh778/harsh778.github.io/archive/master.zip) or clone this repo:
   - Clone using SSH:
   ```
@@ -35,14 +35,14 @@ To have this app on your pc, you need to:
 * In the project directory, you can also run:
 
   - `$ npm install` - installs all the dependencies required by the project
-  - `$ npm start` - runs the app in the development mode:
+  - `$ npm start` - runs the web app in the development mode:
     - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     - The page will reload if you make edits.
 
   - `$ npm run build`
     - Builds the app for production to the `build` folder.
     - The build is minified and the filenames include the hashes.
-    - Your app is ready to be deployed! Congrats 🎉
+    - The web app is ready to be deployed! Congrats 🎉
     
 ## :handshake: Contributing
 Contributions, issues and feature requests are welcome! <br> Just fork this repo, make your changes and create a pull request. 
