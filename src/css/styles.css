@@ -82,14 +82,14 @@ hr {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 1%;
-  -webkit-animation-duration: 3.3s;
-  animation-duration: 3.3s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: InDown;
   animation-name: InDown;
   top: 0;
-  transition: all 1.75s;
+  transition: all 0.5s;
   color: var(--primary-color);
  
 }
@@ -102,7 +102,7 @@ hr {
   text-align: center;
   padding: 1px;
   text-decoration: none;
-  transition: all 1.75s;
+  transition: all 0.5s;
   margin: 10px 8px;
   position: relative;
 }
