@@ -112,7 +112,7 @@ function switchTheme(e) {
     document.getElementById("skill-img-3").style.filter = "invert(0)";
   }
 }
-toggleSwitch.addEventListener('change', switchTheme, false);
+toggleSwitch.addEventListener('change', switchTheme, true);
 
 function switchTheme(e) {
   if (e.target.checked) {
