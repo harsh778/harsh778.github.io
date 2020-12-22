@@ -16,7 +16,7 @@ function showPage() {
 
 
 document.addEventListener('DOMContentLoaded', function(event) {
-  var dataText = ["A Student", "A Gamer", "A Web-Developer", "A Programmer", "A Footballer", "A Learner", "An Innovator" ];
+  var dataText = ["A Student", "A Gamer", "A Web-Developer", "A Programmer", "An Open-Source Enthusiast", "A Footballer", "A Learner", "An Innovator" ];
 
   function typeWriter(text, i, fnCallback) {
     if (i < (text.length)) {
