@@ -12,11 +12,11 @@ This project was built using the following languages and technologies.
 * JavaScript
 * jQuery
 * Bootstrap
-* HTML and Pug
-* CSS and Stylus
-* YAML and JSON
+* HTML 
+* CSS 
 
-## Usage and Development
+
+## 🛠 Usage and Development
 
 To have this web application on your pc, you need to:
 * [download](https://github.com/harsh778/harsh778.github.io/archive/master.zip) or clone this repo:
