@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/harsh778
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://harshsinghal.me
+  * I am harsh778 (https://keybase.io/harsh778) on keybase.
+  * I have a public key with fingerprint 1839 A8FF B62C E5BF AA2D  DB8E 15E9 29FA BB33 0F9C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c774a4972aaa9fba2115535ffc0ccd5455eca53728462a2d7868cf397e52c3370a",
+      "fingerprint": "1839a8ffb62ce5bfaa2ddb8e15e929fabb330f9c",
+      "host": "keybase.io",
+      "key_id": "15e929fabb330f9c",
+      "kid": "0101c774a4972aaa9fba2115535ffc0ccd5455eca53728462a2d7868cf397e52c3370a",
+      "uid": "98c27c56fd3a08f4911412537c47f419",
+      "username": "harsh778"
+    },
+    "service": {
+      "hostname": "harshsinghal.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1610799029,
+  "expire_in": 157680000,
+  "prev": "d6fab72300973cb8f794f3f882324593da5d0c1e0d8acf9edabe1cbe6a15134b",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMItAnicrZJbSFRBGMfXtIsbhUg9lEVwFIpa7cyZc5ttiUopCzHsYj1k25w5M+tJ
+3V3PWbcts8zCUKSi6GIgQRlRFBkR3R66qSALRoSEFZFBhkEGRVaG0Rwp6KHH5mWY
+b37///y/j+mclurxptzuPDk2eKxgQUrywekaz7YJz27UCkbE3Cn4a4UKOr7RSpM6
+sWCFZQp+QQQiIJomYxlpEsYYMQNLACgKVBgjIiGmIisKJViBmqTLqoQlU9NVnTCI
+NKpIBEJNxIJPYFY4RO2obYVj3BboEGGdMUOVCFUMhrnMNHQKFIokxLBhQCgyRLiw
+POK4Ch7OwA7NsyK8xg/B8Xj/4P9z7ppxO6QTSSOKykyIRZ3JCAAZSFxLZI3JALmg
+Q+0wrqKcLse2U65pulDnE3g1bhHqDtbt5G/C4SMpx5V5vOITonYkFiGRSvcyFos6
+flcc2xl16R3UCP72CRpW2OQ6rohT27EiYcEPOElilmsMVCBqCIkS8gk0EbVsGrRc
+QtFUXeTLfYfGuaWp8qFpEhRFpEFi6ExDMoNM1yUoyQqCJlZMkQAqmjomDFETGxQQ
+g6oYKADKhuB2Vh2OCH6Jx8QhbulYoTCO1dhUqHt4f0uaJ8XrmTRxgvvFPN70jD8f
+z2mePJoaqPo85Xrpo8M9c25334IXwYmee0frZ97pO9hY3LLxcTLnTVnjlfa4b9X8
+487Qt3Wvhg6c7fXgzCWVbe2bZvWa07NWb+1OJt63Lqsb0RM/S1sL7n6lXSgE689O
+W+zJGMvp/zEp8PbJ86kfZl8KXQicav6ePTJclN66rvp135rR5kDVASF9XvFQxckm
+b9raxd78fTWJQC3bdnfNjHNl4kD+xxW521ua+peX7Fq+58xwx8K27MKia2rHl7aX
+vbMO5a48/KJrqb320/bP8o3N777lbdifXL+3ZKwwOdDROqd+MDu+qDlx+ZbcN9yf
+1Tg3HTdcvzOa+fTFx/bc3edvXu1cQY805E3+BRb3Rck=
+=AMEr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/harsh778
+
+==================================================================
