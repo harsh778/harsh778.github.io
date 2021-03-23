@@ -515,7 +515,6 @@ textarea {
   justify-content: center;
   align-content: center;
   width: 60%;
-  ;
   transition: 0.25s;
   text-align: center;
   margin: 10px auto;
@@ -549,14 +548,14 @@ input[type="submit"]:hover {
   border: transparent solid 2px;
   border-bottom-color: var(--primary-color);
   width: 70%;
-  color: white;
+  color: var(--font-color);
 }
 
 #contact form input[type="text"]:focus-within {
   border: transparent solid 2px;
   border-bottom-color: var(--primary-color);
   width: 70%;
-  color: white;
+  color: var(--font-color);
 }
 
 #contact form textarea:focus-within {
