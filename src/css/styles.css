@@ -519,6 +519,8 @@ textarea {
   text-align: center;
   margin: 10px auto;
   background: none;
+  color: var(--font-color);
+
 }
 
 #contact form textarea {
@@ -536,12 +538,14 @@ input[type="submit"] {
   transition: 0.5s;
   text-align: center;
   margin: 5px auto;
-  color: white;
+  color: var(--font-color);
+
 }
 
 input[type="submit"]:hover {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--font-color);
+
 }
 
 #contact form input[type="email"]:focus-within {
@@ -562,6 +566,7 @@ input[type="submit"]:hover {
   border: transparent solid 2px;
   border-bottom-color: var(--primary-color);
   width: 90%;
+  color: var(--font-color);
 }
 
 #contact img {
