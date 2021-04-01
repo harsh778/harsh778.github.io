@@ -769,11 +769,11 @@ input[type="submit"]:hover {
   display: none;
 }
 
-/*div {
+div {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}*/
+}
 
 @media screen and (max-width: 850px) {
   .cursor {
