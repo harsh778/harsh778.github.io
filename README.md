@@ -9,8 +9,8 @@ Check it out @ https://harshsinghal.me
 ### Built With
 This project was built using the following languages and technologies.
 
-* JavaScript
-* ES6
+* JavaScript(ES6)
+* AngularJS
 * jQuery
 * Bootstrap
 * HTML5 
